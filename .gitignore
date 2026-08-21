@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+.claude/
+
+# Working directory for the scroll-scrubbing frame pipeline (raw frames, scripts output)
+scroll-frames/
+
+# Raw source assets not used directly by the site (already processed into img/site, img/produtos, img/scroll-cup)
+*.pdf
+*.pdf.download
+*.mov
+CATALOGO_TROMPACK_C-TAMPAS.pdf.download/
+Gemini_Generated_Image_*.jpg
+COPO BRANCO.jpeg
+COPO COM TAMPA PERSONALIZADO.png
+TAMPA COM BICO.png
+TAMPA PET.png
+logo_trompack-1024x188.png
+manda_o_video_com_fundo_verde.mp4
+PRECISO_DE_UM_VIDEO_QUE_EU_CON.mp4
+banner.mp4
+video/
+ffmpeg_extract.log
+
+# Leftover/unused experiment frame directories (site uses img/scroll-cup only)
+img/scroll-cup-full/
+img/scroll-cup-new/

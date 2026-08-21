@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seu Orçamento — Trompack</title>
+<meta name="description" content="Revise os itens do seu orçamento Trompack e envie diretamente pelo WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%236cb534'/%3E%3Cpath d='M50 20 Q70 30 65 55 Q40 60 35 40 Q40 20 50 20Z' fill='%239ed24f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=57">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo"><img src="img/logo.png" alt="Trompack" width="1024" height="188"></a>
+    <div class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sustentabilidade.html">Sustentabilidade</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="contato.html">Contato</a>
+    </div>
+    <div class="nav-right">
+      <a href="carrinho.html" class="cart-btn" aria-label="Orçamento">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L20 8H6"/><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+        <span class="cart-badge">0</span>
+      </a>
+      <a href="contato.html" class="btn btn-primary btn-sm">Fale Conosco</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-panel">
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="sustentabilidade.html">Sustentabilidade</a>
+  <a href="quem-somos.html">Quem Somos</a>
+  <a href="contato.html">Contato</a>
+  <a href="carrinho.html">Orçamento</a>
+</div>
+
+<header class="page-hero">
+  <div class="container">
+    <span class="eyebrow" data-reveal>Orçamento</span>
+    <h1 class="h2" data-reveal style="--d:80ms">Revise seus itens e envie pelo WhatsApp.</h1>
+    <p class="lede" data-reveal style="--d:160ms">Nenhum pagamento online — nossa equipe confirma preços, prazos e condições diretamente com você.</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="cart-layout" id="cart-layout"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-col footer-logo">
+        <img src="img/logo.png" alt="Trompack" width="1024" height="188">
+        <p>Copos de papel sustentáveis para food service, cafeterias e restaurantes em todo o Brasil.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <a href="produtos.html">Produtos</a>
+        <a href="sustentabilidade.html">Sustentabilidade</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <span>+55 41 9 9585.0229</span>
+        <span>atendimento@trompack.com.br</span>
+        <a href="https://instagram.com/trompack" target="_blank">@trompack</a>
+      </div>
+      <div class="footer-col">
+        <h4>Orçamento</h4>
+        <a href="produtos.html">Monte seu pedido</a>
+        <a href="https://wa.me/5541995850229" target="_blank">Fale no WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Trompack. Todos os direitos reservados.</span>
+      <span>Bom para o planeta, ótimo para o café da tarde.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="action-bar" id="actionBar">
+  <div class="container">
+    <div class="action-bar-copy">
+      <b>Orçamento em minutos, fechado no WhatsApp</b>
+      <span>Caixa de 1.500 un. · FSC · até 90 °C · 100 a 330ml</span>
+    </div>
+    <div class="action-bar-actions">
+      <a href="produtos.html" class="btn btn-primary btn-sm">Montar orçamento</a>
+      <a href="https://wa.me/5541995850229?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20copos%20Trompack." target="_blank" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<a class="wa-fab" href="https://wa.me/5541995850229?text=Ol%C3%A1!%20Gostaria%20de%20falar%20sobre%20os%20produtos%20Trompack." target="_blank" aria-label="Fale no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#06210f"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1s-.7 1-.9 1.1c-.2.1-.3.2-.6 0-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+</a>
+
+<script src="js/cart.js?v=57"></script>
+<script>
+  (function () {
+    "use strict";
+    const layout = document.getElementById("cart-layout");
+
+    function render() {
+      const items = cartItems();
+
+      if (!items.length) {
+        layout.innerHTML = `
+          <div class="empty-cart" style="grid-column: 1 / -1;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L20 8H6"/><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+            <h3 class="h3">Seu orçamento está vazio</h3>
+            <p style="max-width:420px;margin:12px auto 28px;">Adicione copos e tampas no catálogo para montar seu pedido.</p>
+            <a href="produtos.html" class="btn btn-primary">Ver Produtos</a>
+          </div>`;
+        return;
+      }
+
+      const totalUnits = items.reduce((s, i) => s + i.qty, 0);
+
+      layout.innerHTML = `
+        <div class="cart-list">
+          ${items
+            .map(
+              ({ product, qty }) => `
+            <div class="cart-item" data-row="${product.id}">
+              <div class="cart-item-icon">${productSVG(product)}</div>
+              <div>
+                <div class="cart-item-name">${product.name}</div>
+                <div class="cart-item-sub">${product.categoryLabel} · ${product.size}</div>
+              </div>
+              <div class="qty-control">
+                <button type="button" data-action="dec" data-id="${product.id}">–</button>
+                <input type="number" min="1" value="${qty}" data-qty="${product.id}" />
+                <button type="button" data-action="inc" data-id="${product.id}">+</button>
+              </div>
+              <button type="button" class="remove-btn" data-remove="${product.id}" aria-label="Remover">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+              </button>
+            </div>`
+            )
+            .join("")}
+        </div>
+
+        <div class="summary-card">
+          <h3 class="h3">Finalizar orçamento</h3>
+          <div class="summary-row"><span>Itens</span><span>${items.length}</span></div>
+          <div class="summary-row"><span>Unidades totais</span><span>${totalUnits}</span></div>
+
+          <div style="margin-top:22px;">
+            <div class="form-field"><label>Nome *</label><input type="text" id="lead-name" placeholder="Seu nome"></div>
+            <div class="form-field"><label>Empresa</label><input type="text" id="lead-company" placeholder="Nome da empresa"></div>
+            <div class="form-field"><label>Telefone</label><input type="text" id="lead-phone" placeholder="(41) 9 9999-9999"></div>
+            <div class="form-field"><label>E-mail</label><input type="email" id="lead-email" placeholder="voce@empresa.com"></div>
+            <div class="form-field"><label>Mensagem</label><textarea id="lead-message" placeholder="Prazo, personalização, frequência de compra..."></textarea></div>
+          </div>
+
+          <a href="#" id="send-whatsapp" class="btn btn-whatsapp" style="width:100%;margin-top:6px;">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1s-.7 1-.9 1.1c-.2.1-.3.2-.6 0-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+            Enviar orçamento pelo WhatsApp
+          </a>
+          <p id="lead-error" style="color:#c0392b;font-size:12.5px;margin-top:10px;display:none;">Preencha seu nome para continuar.</p>
+        </div>`;
+
+      layout.querySelectorAll("[data-action]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const id = btn.dataset.id;
+          const input = layout.querySelector(`[data-qty="${id}"]`);
+          let val = parseInt(input.value, 10) || 1;
+          val = btn.dataset.action === "inc" ? val + 1 : Math.max(1, val - 1);
+          setQty(id, val);
+          render();
+        });
+      });
+
+      layout.querySelectorAll("[data-qty]").forEach((input) => {
+        input.addEventListener("change", () => {
+          const val = Math.max(1, parseInt(input.value, 10) || 1);
+          setQty(input.dataset.qty, val);
+          render();
+        });
+      });
+
+      layout.querySelectorAll("[data-remove]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          setQty(btn.dataset.remove, 0);
+          render();
+        });
+      });
+
+      document.getElementById("send-whatsapp").addEventListener("click", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("lead-name").value.trim();
+        const errorEl = document.getElementById("lead-error");
+        if (!name) {
+          errorEl.style.display = "block";
+          document.getElementById("lead-name").focus();
+          return;
+        }
+        errorEl.style.display = "none";
+        openWhatsAppWithCart({
+          name,
+          company: document.getElementById("lead-company").value.trim(),
+          phone: document.getElementById("lead-phone").value.trim(),
+          email: document.getElementById("lead-email").value.trim(),
+          message: document.getElementById("lead-message").value.trim(),
+        });
+      });
+    }
+
+    render();
+  })();
+</script>
+<script src="js/main.js?v=57"></script>
+</body>
+</html>
