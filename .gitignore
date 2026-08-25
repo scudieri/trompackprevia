@@ -19,9 +19,13 @@ logo_trompack-1024x188.png
 manda_o_video_com_fundo_verde.mp4
 PRECISO_DE_UM_VIDEO_QUE_EU_CON.mp4
 banner.mp4
-video/
+/coposban.mp4
+video/banner.mp4
+video/banner-poster.jpg
+video/banner-poster.webp
 ffmpeg_extract.log
 
 # Leftover/unused experiment frame directories (site uses img/scroll-cup only)
 img/scroll-cup-full/
 img/scroll-cup-new/
+.vercel
